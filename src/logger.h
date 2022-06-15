@@ -1,3 +1,3 @@
-void    openLog(std::string fileName);
-void    saveLog(std::string msg);
-void    closeLog(void);
+void createLogger(std::string fileName);
+void persistLog(std::string msg);
+void closeLog(void);
